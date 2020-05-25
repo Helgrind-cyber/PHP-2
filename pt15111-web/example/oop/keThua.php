@@ -40,5 +40,4 @@ $class = new B();
 echo $class->getMethod();
 echo "<br>";
 echo $class->getMethodParent();
-
 ?>
