@@ -1,0 +1,14 @@
+========================== PHP2 ==========================
+========================== OOP ===========================
+========================== Mô hình MVC ===================
+1. Request
+    - GET REQUEST: tham số đường dẫn(query string): ?key=value
+    - $_GET lay du lieu tu url, k lien quan toi REQUEST
+    - $_POST: gui form data, bao mat
+2. OOP (Object-oriented programming)
+    - Lập trình hướng đối tượng là gì?
+    - class
+    - Thuộc tính (properties)
+    - Phuong thuc (function)
+    - `new` key word
+    - instance
