@@ -38,22 +38,52 @@
 
 // };
 
-class ConNguoi {
-    var $name;
-    var $age;
-    var $gender;
-    var $address;
-    const soChan = 2;
+class ConNguoi
+{
+    //khai báo thuộc tính động
+    public $name;
+    public $mat;
+    public $mui;
+    //khai báo constant
+    const SOCHAN = 2;
 
-    function noi($cauNoi) {
-        return $this->name = $cauNoi;
+    //khai báo phương thức
+    public function an()
+    {
+        //code
+    }
+
+    public function noi($caunoi)
+    {
+        //gọi phương thức trong class
+        return $this->getSoChan();
+    }
+
+    public function di()
+    {
+        //code
+    }
+
+    public function getName()
+    {
+        //gọi thuộc tính động trong class
+        return $this->name;
+    }
+
+    public function getSoChan()
+    {
+        //gọi thuộc tính constant trong class
+        return self::SOCHAN;
     }
 }
 
-$quan = new ConNguoi();
-
-$quan->name = "Quan";
-$talk = $quan->noi('Hello Everybody!');
-var_dump($talk);
-
+//khởi tạo class
+$connguoi = new ConNguoi();
+//gọi thuộc tính ngoài class và đồng thười gán giá trị mới cho thuộc tính
+$connguoi->name = 'Nguyen Hong Quan';
+//gọi lại thuộc tính để xem thay đổi
+echo $connguoi->name;
+echo "<br>";
+//gọi phương thức
+echo $connguoi->noi('Vũ Thanh Tài');
 ?>
