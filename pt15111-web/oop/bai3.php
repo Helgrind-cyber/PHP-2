@@ -17,6 +17,7 @@ class ConNguoi {
         $newCar->loai = $type;
         $newCar->color = $color;
         $newCar->price = $price;
+
         return array_push($this->car, $newCar);
     }
 }
