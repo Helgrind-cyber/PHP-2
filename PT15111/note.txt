@@ -12,3 +12,5 @@
     - Phuong thuc (function)
     - `new` key word
     - instance
+    - Kế thừa: kế thừa đa cấp
+    - PHP là ngôn ngữ đơn kế thừa

@@ -35,5 +35,5 @@ class Users
 $listUser = new Users();
 echo "<pre>";
 var_dump($listUser->getAll());
-echo "=======================";
+echo "<hr>";
 var_dump($listUser->find(1));
