@@ -9,7 +9,7 @@ class BaseModel
 
     public function __construct()
     {
-        return $this->connect = new PDO("mysql:host=$this->host;dbname=$this->dbname;charset=utf8", $this->dbuser, $this->dbpass);
+        return $this->conn = new PDO("mysql:host=$this->host;dbname=$this->dbname;charset=utf8", $this->dbuser, $this->dbpass);
     }
 
     static function all()
@@ -23,16 +23,43 @@ class BaseModel
     }
 }
 
-class Products extends BaseModel {
-    var $table = "products";
+class Services extends BaseModel
+{
+    var $table = "services";
 }
 
-class Category extends BaseModel {
-    var $table = "products";
-}
+$services = Services::all();
 
-$product = Products::all();
-$category = Category::all();
+?>
 
-echo "<pre>";
-var_dump($product);
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($services as $service) : ?>
+                <tr>
+                    <td><?= $service['id'] ?></td>
+                    <td><?= $service['name'] ?></td>
+                    <td><?= $service['introduce'] ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+</body>
+
+</html>
