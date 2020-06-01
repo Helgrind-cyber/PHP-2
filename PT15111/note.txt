@@ -1,6 +1,6 @@
-========================== PHP2 ==========================
-========================== OOP ===========================
-========================== Mô hình MVC ===================
+========================== PHP2 ====================================
+========================== OOP =====================================
+========================== Mô hình MVC =============================
 1. Request
     - GET REQUEST: tham số đường dẫn(query string): ?key=value
     - $_GET lay du lieu tu url, k lien quan toi REQUEST
@@ -14,3 +14,5 @@
     - instance
     - Kế thừa: kế thừa đa cấp
     - PHP là ngôn ngữ đơn kế thừa
+    - Tính đa hình: lớp con được phép định nghĩa lại hành động, giá trị, thuộc tính của lớp cha. "overwrite"
+    - Tính đóng gói: bảo vệ, giới hạn quyền truy cập thuộc tính, phương thức của 1 class "public" "protected" "private"
