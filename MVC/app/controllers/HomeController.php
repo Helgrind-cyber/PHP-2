@@ -1,15 +1,12 @@
 <?php
-require_once './app/models/Product.php';
+require_once './app/models/ProductModel.php';
 
 class HomeController
 {
     function index()
     {
-        $products = Product::all();
+        $products = ProductModel::all();
 
-
-        $name = "Quan";
-        $address = "Nam Dinh";
         include_once "./app/views/home/trang-chu.php";
     }
 }

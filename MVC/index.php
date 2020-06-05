@@ -1,8 +1,12 @@
 <?php
 $url = isset($_GET['url']) ? $_GET['url'] : '/';
+
+require_once "./commons/ultils.php";
 require_once "./app/controllers/HomeController.php";
 require_once "./app/controllers/ProductController.php";
 require_once "./app/controllers/ProfileController.php";
+require_once "./app/controllers/UserController.php";
+
 
 switch ($url) {
     case '/':
@@ -20,6 +24,10 @@ switch ($url) {
     case 'profile':
         $ctr = new ProfileController();
         $ctr->getProfile();
+        break;
+    case 'users':
+        $ctr = new UserController();
+        $ctr->index();
         break;
 
     default:

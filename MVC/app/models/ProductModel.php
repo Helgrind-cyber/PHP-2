@@ -1,8 +1,9 @@
 <?php
 require_once './app/models/BaseModel.php';
-require_once './app/models/Category.php';
+require_once './app/models/CategoryModel.php';
 
-class Product extends BaseModel {
+class ProductModel extends BaseModel
+{
     protected $table = "products";
 
     public function getCateName()
@@ -12,7 +13,7 @@ class Product extends BaseModel {
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_CLASS, "Categories");
 
-        if(count($result) > 0) {
+        if (count($result) > 0) {
             return $result[0]->cate_name;
         }
     }

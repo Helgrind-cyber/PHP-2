@@ -1,2 +1,2 @@
 <?php
-define('BASE_URL', 'http://localhost/PHP-2/MVC');
+define('BASE_URL', 'http://localhost/PHP-2/MVC/');
