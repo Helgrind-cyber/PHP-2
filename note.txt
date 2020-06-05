@@ -16,3 +16,10 @@
     - PHP là ngôn ngữ đơn kế thừa
     - Tính đa hình: lớp con được phép định nghĩa lại hành động, giá trị, thuộc tính của lớp cha. "overwrite"
     - Tính đóng gói: bảo vệ, giới hạn quyền truy cập thuộc tính, phương thức của 1 class "public" "protected" "private"
+3. MVC
+    - "Naming Convention"
+    - Name space
+    - Chuan dat ten: PSR4
+    - Cai composer
+    - Model, Controller, View
+    - Life cycle
