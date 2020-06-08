@@ -1,0 +1,10 @@
+{
+    "name": "helgrind/mvc",
+    "authors": [
+        {
+            "name": "quannh",
+            "email": "quannhph09166@fpt.edu.vn"
+        }
+    ],
+    "require": {}
+}

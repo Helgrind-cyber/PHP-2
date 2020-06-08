@@ -7,7 +7,6 @@ require_once "./app/controllers/ProductController.php";
 require_once "./app/controllers/ProfileController.php";
 require_once "./app/controllers/UserController.php";
 
-
 switch ($url) {
     case '/':
         $ctr = new HomeController();
