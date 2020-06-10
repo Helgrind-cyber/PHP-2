@@ -27,7 +27,7 @@
     - Bắt đầu từ khi khai baos tới khi gặp 1 namespace khác, hoặc đến khi kết thúc
 >5. Composer.
     - composer init
-    - composer install: install vendor autoload packages
+    - "composer install": install vendor autoload packages or command line "composer dumpautoload"
     - copy autoload json
 >6. Autoload.
     -
