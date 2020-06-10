@@ -1,5 +1,5 @@
 <?php
-require_once './app/models/BaseModel.php';
+namespace App\models;
 
 class UserModel extends BaseModel
 {

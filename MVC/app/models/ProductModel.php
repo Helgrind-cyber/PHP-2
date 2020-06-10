@@ -1,6 +1,6 @@
 <?php
-require_once './app/models/BaseModel.php';
-require_once './app/models/CategoryModel.php';
+namespace App\models;
+use PDO;
 
 class ProductModel extends BaseModel
 {

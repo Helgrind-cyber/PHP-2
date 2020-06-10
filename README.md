@@ -25,8 +25,9 @@
     - Life cycle
 >4. Name space.
     - Bắt đầu từ khi khai baos tới khi gặp 1 namespace khác, hoặc đến khi kết thúc
-    - composer init
 >5. Composer.
-    -
+    - composer init
+    - composer install: install vendor autoload packages
+    - copy autoload json
 >6. Autoload.
     -

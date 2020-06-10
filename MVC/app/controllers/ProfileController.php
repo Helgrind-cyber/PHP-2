@@ -1,4 +1,5 @@
 <?php
+namespace App\Controllers;
 class ProfileController {
     function getProfile() {
         $name = "Quan";
