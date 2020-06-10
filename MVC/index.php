@@ -1,11 +1,11 @@
 <?php
 $url = isset($_GET['url']) ? $_GET['url'] : '/';
 
-require_once "./commons/ultils.php";
-require_once "./app/controllers/HomeController.php";
-require_once "./app/controllers/ProductController.php";
-require_once "./app/controllers/ProfileController.php";
-require_once "./app/controllers/UserController.php";
+require_once "./vendor/autoload.php";
+use App\Controllers\HomeController;
+use App\Controllers\ProductController;
+use App\Controllers\ProfileController;
+use App\Controllers\UserController;
 
 switch ($url) {
     case '/':
