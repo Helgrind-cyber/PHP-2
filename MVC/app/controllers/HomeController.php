@@ -7,7 +7,6 @@ class HomeController
     function index()
     {
         $products = ProductModel::all();
-
-        include_once "./app/views/home/trang-chu.php";
+        require_once "./app/views/home/trang-chu.php";
     }
 }

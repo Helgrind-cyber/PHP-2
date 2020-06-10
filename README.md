@@ -29,5 +29,8 @@
     - composer init
     - "composer install": install vendor autoload packages or command line "composer dumpautoload"
     - copy autoload json
+        + Thu vien: tuong tac db: illuminate/database
+        + xu ly tang view: jensseger/blade
+        + xu ly tang routing: phroute/phroute, nikic/fast-route
 >6. Autoload.
     -

@@ -2,12 +2,12 @@
     "name": "helgrind/mvc",
     "authors": [
         {
-            "name": "quannh",
-            "email": "quannhph09166@fpt.edu.vn"
+            "name": "helgrind-cyber",
+            "email": "helgrindxxx@gmail.com"
         }
     ],
     "require": {
-        "monolog/monolog": "1.0.*"
+        "illuminate/database": "*"
     },
     "autoload": {
         "psr-4": {

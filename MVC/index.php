@@ -1,7 +1,7 @@
 <?php
 $url = isset($_GET['url']) ? $_GET['url'] : '/';
-
 require_once "./vendor/autoload.php";
+
 use App\Controllers\HomeController;
 use App\Controllers\ProductController;
 use App\Controllers\ProfileController;

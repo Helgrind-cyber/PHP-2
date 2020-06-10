@@ -1,5 +1,5 @@
 <?php
-namespace App\models;
+namespace App\Models;
 
 class Category extends BaseModel
 {
