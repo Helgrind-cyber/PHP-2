@@ -26,11 +26,11 @@
 >4. Name space.
     - Bắt đầu từ khi khai baos tới khi gặp 1 namespace khác, hoặc đến khi kết thúc
 >5. Composer.
-    - composer init
-    - "composer install": install vendor autoload packages or command line "composer dumpautoload"
+    - "composer init"
+    - "composer dumpautoload": command line
+    - "composer install": install vendor autoload packages
+    - "composer update": cap nhat thu vien moi nhat
     - copy autoload json
         + Thu vien: tuong tac db: illuminate/database
         + xu ly tang view: jensseger/blade
         + xu ly tang routing: phroute/phroute, nikic/fast-route
->6. Autoload.
-    -

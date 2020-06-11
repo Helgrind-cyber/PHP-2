@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae1557db63cf3d868461bd51bc70a2e1",
+    "content-hash": "298d8edece9b06afab257c7e4f9fe74c",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -249,6 +249,51 @@
                 "sql"
             ],
             "time": "2020-06-09T14:00:25+00:00"
+        },
+        {
+            "name": "illuminate/events",
+            "version": "v7.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/events.git",
+                "reference": "47f448a6ccaa4aee14b8d0d3a16991b9d2d89560"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/47f448a6ccaa4aee14b8d0d3a16991b9d2d89560",
+                "reference": "47f448a6ccaa4aee14b8d0d3a16991b9d2d89560",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/container": "^7.0",
+                "illuminate/contracts": "^7.0",
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Events\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Events package.",
+            "homepage": "https://laravel.com",
+            "time": "2020-06-08T19:10:43+00:00"
         },
         {
             "name": "illuminate/support",

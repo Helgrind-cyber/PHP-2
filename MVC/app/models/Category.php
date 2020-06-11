@@ -1,7 +1,7 @@
 <?php
 namespace App\Models;
 
-class Category extends BaseModel
+class Category
 {
     protected $table = "users";
 }

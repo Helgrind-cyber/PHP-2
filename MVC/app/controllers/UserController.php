@@ -1,12 +1,12 @@
 <?php
 namespace App\Controllers;
-use App\Models\UserModel;
+use App\Models\User;
 
 class UserController
 {
     function index()
     {
-        $users = UserModel::all();
+        // $users = User::all();
 
         include_once "./app/views/users/index.php";
     }

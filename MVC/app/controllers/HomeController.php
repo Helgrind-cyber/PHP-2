@@ -1,12 +1,12 @@
 <?php
 namespace App\Controllers;
-use App\Models\ProductModel;
 
 class HomeController
 {
-    function index()
+    public function index()
     {
-        $products = ProductModel::all();
-        require_once "./app/views/home/trang-chu.php";
+        echo 1;
+        // $products = Product::all();
+        // require_once "./app/views/home/trang-chu.php";
     }
 }
