@@ -34,3 +34,17 @@
         + Thu vien: tuong tac db: illuminate/database
         + xu ly tang view: jensseger/blade
         + xu ly tang routing: phroute/phroute, nikic/fast-route
+>6. Eloquent ORM
+    - Retrieving Models:
+        + ::all()
+        + ::where('ten cot', gtri) select * from table where 'ten cot' = gtri
+        + ('ten cot', 'phep dkien', gtri) select * from table where 'ten cot' 'phep dkien' gtri (select * from table where id like 'a')
+        + get() tra ve mang chua object
+        + first() tra ve object
+        + orderBy('gtri1', 'gtri2')
+        + ::find(value) tim gia tri theo khoa chinh
+        + ->delete(): xoa dua theo 1 dieu kien bat ky
+        + ::destroy(): xoa 1 hay nhieu theo id
+        + ::create(valueArr)
+        + ->save()
+    -   2 cot phai co gtri: created_at, updated_at -> public $timestamp = false

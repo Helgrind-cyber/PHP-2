@@ -10,6 +10,11 @@ class ProductController {
     {
         echo "gio hang";
     }
+
+    public function add()
+    {
+        # code...
+    }
 }
 
 ?>
