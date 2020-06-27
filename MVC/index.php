@@ -31,7 +31,10 @@ switch ($url) {
         $ctr = new UserController();
         $ctr->index();
         break;
-
+    case 'quannh':
+        $ctr = new HomeController();
+        $ctr->myName();
+        break;
     default:
         echo "Duong dan khong ton tai !!!";
         break;

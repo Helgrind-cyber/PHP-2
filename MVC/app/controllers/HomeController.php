@@ -13,4 +13,9 @@ class HomeController
         dd($products);
         require_once "./app/views/home/trang-chu.php";
     }
+
+    public function myName()
+    {
+        return $this->render('home.myName');
+    }
 }
