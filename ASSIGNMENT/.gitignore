@@ -1,0 +1,5 @@
+
+/vendor/
+cache/*.php
+.env
+.env.example
